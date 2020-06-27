@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RN-hw-2-Feedback/static/css/main.5f361e03.chunk.css",
+    "main.js": "/RN-hw-2-Feedback/static/js/main.ca039f28.chunk.js",
+    "main.js.map": "/RN-hw-2-Feedback/static/js/main.ca039f28.chunk.js.map",
+    "runtime-main.js": "/RN-hw-2-Feedback/static/js/runtime-main.9ebd36ff.js",
+    "runtime-main.js.map": "/RN-hw-2-Feedback/static/js/runtime-main.9ebd36ff.js.map",
+    "static/js/2.1bca8bdd.chunk.js": "/RN-hw-2-Feedback/static/js/2.1bca8bdd.chunk.js",
+    "static/js/2.1bca8bdd.chunk.js.map": "/RN-hw-2-Feedback/static/js/2.1bca8bdd.chunk.js.map",
+    "index.html": "/RN-hw-2-Feedback/index.html",
+    "precache-manifest.9e627ba716895c75f51e49d41db6126e.js": "/RN-hw-2-Feedback/precache-manifest.9e627ba716895c75f51e49d41db6126e.js",
+    "service-worker.js": "/RN-hw-2-Feedback/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/RN-hw-2-Feedback/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1bca8bdd.chunk.js.LICENSE.txt": "/RN-hw-2-Feedback/static/js/2.1bca8bdd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/RN-hw-2-Feedback/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ebd36ff.js",
+    "static/js/2.1bca8bdd.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.ca039f28.chunk.js"
+  ]
+}
