@@ -1,0 +1,22 @@
+.button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px rgb(241, 55, 166) inset, 0 0 0 0 rgb(241, 55, 166);
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+    border-color: transparent;
+    border-width: 0px;
+}
+.button:hover,
+.button:focus {
+    box-shadow: 0 0 10px 0 #f137a6 inset, 0 0 10px 4px rgb(241, 55, 166);
+    color: rgb(241, 55, 166);
+}
