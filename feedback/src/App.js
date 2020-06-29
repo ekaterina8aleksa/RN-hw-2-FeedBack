@@ -20,12 +20,12 @@ class App extends Component {
 
     options = Object.keys(this.state);
 
-    handleFeedbackCounter = (e) => {
-        const target = e.target.name;
+    handleFeedbackCounter = ({ target: { name } }) => {
+        //const target = e.target.name;
 
         this.setState((state) => {
             return {
-                [target]: state[target] + 1,
+                [name]: state[name] + 1,
             };
         });
     };
@@ -50,35 +50,31 @@ class App extends Component {
         const positiveFeedback = this.countPositiveFeedbackPercentage;
 
         return (
-            <>
-                <Container>
-                    <Section title={"Please leave Feedback"}>
-                        {Object.keys(this.state).map((item) => (
-                            <FeedbackOptions
-                                onLeaveFeedback={this.handleFeedbackCounter}
-                                btnValue={item}
-                                key={item}
-                            />
-                        ))}
-                    </Section>
+            <Container>
+                <Section title={"Please leave Feedback"}>
+                    {Object.keys(this.state).map((item) => (
+                        <FeedbackOptions
+                            onLeaveFeedback={this.handleFeedbackCounter}
+                            btnValue={item}
+                            key={item}
+                        />
+                    ))}
+                </Section>
 
-                    <Section title={"Statistics"}>
-                        {totalFeedbacks > 0 ? (
-                            <Statistics
-                                good={good}
-                                neutral={neutral}
-                                bad={bad}
-                                total={totalFeedbacks}
-                                positivePercentage={positiveFeedback(good)}
-                            />
-                        ) : (
-                            <Notification
-                                message={"There are no FeedBacks =( "}
-                            />
-                        )}
-                    </Section>
-                </Container>
-            </>
+                <Section title={"Statistics"}>
+                    {totalFeedbacks > 0 ? (
+                        <Statistics
+                            good={good}
+                            neutral={neutral}
+                            bad={bad}
+                            total={totalFeedbacks}
+                            positivePercentage={positiveFeedback(good)}
+                        />
+                    ) : (
+                        <Notification message={"There are no FeedBacks =( "} />
+                    )}
+                </Section>
+            </Container>
         );
     }
 }

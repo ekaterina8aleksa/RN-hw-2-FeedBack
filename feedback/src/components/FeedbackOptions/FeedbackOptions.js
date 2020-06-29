@@ -4,20 +4,19 @@ import styles from "./FeedbackOptions.module.css";
 
 const FeedbackOptions = ({ btnValue, onLeaveFeedback }) => {
     return (
-        <>
-            <button
-                type="button"
-                name={btnValue}
-                className={styles.button}
-                onClick={onLeaveFeedback}
-            >
-                {btnValue}
-            </button>
-        </>
+        <button
+            type="button"
+            name={btnValue}
+            className={styles.button}
+            onClick={onLeaveFeedback}
+        >
+            {btnValue}
+        </button>
     );
 };
 
 FeedbackOptions.propTypes = {
+    btnValue: PropTypes.string.isRequired,
     onLeaveFeedback: PropTypes.func.isRequired,
 };
 
