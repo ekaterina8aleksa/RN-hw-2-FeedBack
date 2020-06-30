@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RN-hw-2-Feedback/static/css/main.02ccb68d.chunk.css",
-    "main.js": "/RN-hw-2-Feedback/static/js/main.da4b33ee.chunk.js",
-    "main.js.map": "/RN-hw-2-Feedback/static/js/main.da4b33ee.chunk.js.map",
+    "main.js": "/RN-hw-2-Feedback/static/js/main.121f9100.chunk.js",
+    "main.js.map": "/RN-hw-2-Feedback/static/js/main.121f9100.chunk.js.map",
     "runtime-main.js": "/RN-hw-2-Feedback/static/js/runtime-main.9ebd36ff.js",
     "runtime-main.js.map": "/RN-hw-2-Feedback/static/js/runtime-main.9ebd36ff.js.map",
     "static/js/2.6d43074d.chunk.js": "/RN-hw-2-Feedback/static/js/2.6d43074d.chunk.js",
     "static/js/2.6d43074d.chunk.js.map": "/RN-hw-2-Feedback/static/js/2.6d43074d.chunk.js.map",
     "index.html": "/RN-hw-2-Feedback/index.html",
-    "precache-manifest.f8023d626db3056f5e06509d273e348c.js": "/RN-hw-2-Feedback/precache-manifest.f8023d626db3056f5e06509d273e348c.js",
+    "precache-manifest.8d2b76c88994f3e5cd17bc16093c87af.js": "/RN-hw-2-Feedback/precache-manifest.8d2b76c88994f3e5cd17bc16093c87af.js",
     "service-worker.js": "/RN-hw-2-Feedback/service-worker.js",
     "static/css/main.02ccb68d.chunk.css.map": "/RN-hw-2-Feedback/static/css/main.02ccb68d.chunk.css.map",
     "static/js/2.6d43074d.chunk.js.LICENSE.txt": "/RN-hw-2-Feedback/static/js/2.6d43074d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9ebd36ff.js",
     "static/js/2.6d43074d.chunk.js",
     "static/css/main.02ccb68d.chunk.css",
-    "static/js/main.da4b33ee.chunk.js"
+    "static/js/main.121f9100.chunk.js"
   ]
 }
